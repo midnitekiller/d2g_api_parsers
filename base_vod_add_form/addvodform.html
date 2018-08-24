@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Add VOD Form</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+
+</head>
+<body id="main_body" >
+
+        <img id="top" src="top.png" alt="">
+        <div id="form_container">
+
+                <h1><a>Add VOD Form</a></h1>
+                <form id="vodMovies" class="appnitro" enctype="multipart/form-data" method="post" action="addmovie.php">
+                                        <div class="form_description">
+                        <h2>Add VOD Form</h2>
+                        <p>Add your Videos On Demand Here</p>
+                </div>
+                        <ul >
+
+                                        <li id="li_1" >
+                <label class="description" for="element_1">Group</label>
+                <div>
+                <select class="element select medium" id="element_1" name="groups">
+                        <option value="" selected="selected"></option>
+<option value="googlevideos" >D2G VOD</option>
+                </select>
+                </div>
+                </li>           <li id="li_2" >
+                <label class="description" for="element_2">Category </label>
+                <div>
+                <select class="element select medium" id="element_2" name="category">
+                        <option value="" selected="selected"></option>
+<option value="Action" >Action</option>
+<option value="Animation" >Animation</option>
+<option value="Adventure" >Adventure</option>
+<option value="Cartoons" >Cartoons</option>
+<option value="Comedy" >Comedy</option>
+<option value="Crime" >Crime</option>
+<option value="Documentary" >Documentary</option>
+<option value="Drama" >Drama</option>
+<option value="Fantasy" >Fantasy</option>
+<option value="History" >History</option>
+<option value="Horror" >Horror</option>
+<option value="Romance" >Romance</option>
+<option value="SciFi" >SciFi</option>
+<option value="Thriller" >Thriller</option>
+
+                </select>
+                </div>
+                </li>           <li id="li_9" >
+                <label class="description" for="type">Type </label>
+                <div>
+                <select class="element select medium" id="type" name="type">
+                        <option value="" selected="selected"></option>
+<option value="movies" >HLS</option>
+                </select>
+                </div>
+                </li>           <li id="li_7" >
+                <label class="description" for="element_7">Title</label>
+                <div>
+                        <input id="title" name="title" class="element text medium" type="text" maxlength="255" value=""/>
+                </div>
+                </li>           <li id="li_3" >
+                <label class="description" for="element_3">Description</label>
+                <div>
+                        <textarea id="description" name="description" class="element textarea medium"></textarea>
+                </div>
+                </li>           <li id="li_4" >
+                <label class="description" for="source">Video Source</label>
+                <div>
+                        <input id="source" name="source" class="element text medium" type="text" maxlength="350" value=""/>
+                </div>
+                </li>           <li id="li_5" >
+                <label class="description" for="card">Card Image</label>
+                <div>
+                     <input id="card" name="card" class="element text medium" type="text" maxlength="350" value=""/>
+                </div>
+                </li>           <li id="li_6" >
+                <label class="description" for="background">Background Image</label>
+                <div>
+                        <input id="background" name="background" class="element text medium" type="text" maxlength="350" value=""/>
+                </div>
+                </li>           <li id="li_8" >
+                <label class="description" for="element_8">Producer</label>
+                <div>
+                        <input id="element_8" name="studio" class="element text medium" type="text" maxlength="255" value=""/>
+                </div>
+                </li>
+
+                                        <li class="buttons">
+                            <input type="hidden" name="form_id" value="17945" />
+
+                                <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+                </li>
+                        </ul>
+                </form>
+        <img id="bottom" src="bottom.png" alt="">
+
+
+
+        </body>
+</html>
+
